@@ -23,3 +23,8 @@ Farbige Konsolenausgabe.
 
 Holt sich ein Repository vom Server und legt eine lokale
 Arbeitskopie an.
+
+    git remote add origin https://github.com/ManuelLoof/BASTA_2016.git
+    git push -u origin master
+
+Logt sich auf GitHub ein und überträgt die Daten aus der Arbeitskopie auf den Server.
