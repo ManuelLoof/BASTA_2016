@@ -148,24 +148,38 @@
 
 *Nochmal die genaue Syntax anschauen.*
 
-
-
-
 > Hier kann ich alle Biblioteken angeben. Muss ich aber nicht. Falls nicht
 > da, dann geht er vom Root Knoten aus.
+
+
+> *Self-contained* Deployment erzeugt wieder eine schöne *.exe File.
+> Ansonsten immer dotnet starten.
+> Wird in der Projekt File eingetragen?
+> **Nochmal im Slide nachschauen**
+
+
+#### Beispiel 5 Roslyn Magic ####
+
+- Beispiel 45-custom tool .... classcount
+
+
+#### Beispiel 6 Nur die benötigten Dlls verwenden  ####
+
+> Für das Beipsiel in die Slides schauen.
+
 
 ### ToDo: ###
 
 - Unbedingt auf 1.0.1 updaten. Security Patch.
 - mstest anschauen. Ganz neu. Was ist dann der Alte?
 
-
 ### ToRead: ###
 
 - Windows Nano Server anschauen (sowas Windows embeded für Server)
 - [docs.microsoft.com](docs.microsft.com) die Adresse für die Microsoft
     Dokumentation. MSDN kommt nichts mehr neues.
-
+- Semantic Versioning 2.0.0
+- GitHub Issues anschauen.
 
 
 
