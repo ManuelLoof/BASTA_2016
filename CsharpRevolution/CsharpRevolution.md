@@ -8,7 +8,7 @@
 
 ### Slides und Code Beispiel: ###
 
-- [https://github.com/rstropek/sampels](https://github.com/rstropek/sampels)
+- [https://github.com/rstropek/samples](https://github.com/rstropek/samples)
 
 - Verzeichnis:
 
@@ -84,12 +84,12 @@
     eine Übersichtstabelle von Microsoft welches Framework
     ob .Net Core und .NET Framework.
 
-#### Simples Beispiel 2 (Libary) ##
+#### Simples Beispiel 2 (Library) ##
 
     cmd> dotnet new -t Lib
 
 > Consolen Programm => Microsoft.NetCore.App
-> Libary => netstandard1.6
+> Library => netstandard1.6
 > Der Unterschied ist das eine Consolen Anwendung auch auf .Net Core läuft.
 > Libaries können auch von Programmen die den Net Standard unterstüzen, 
 > also auch das ganz normale Framework.    
@@ -131,7 +131,7 @@
     
     cmd> dotnet new -t Lib
 
-> Legt eine Libary an.
+> Legt eine Library an.
 > Der Parameter -t sorgt für dafür das es sich um eine Libaray handelt.
 
     cmd> dotnet new consoleProgName 
@@ -168,10 +168,25 @@
 > Für das Beipsiel in die Slides schauen.
 
 
+#### Beispiel 7 Integration in bisherige Anwendungen ####
+
+> Man kann über NuGet auf eine Core Library zugreifen. Sollte man aber nicht
+> machen. Lieber Micro Services.
+
+
+### ASP.NET Core 1 Basics ###
+
+- Kestrel ist der Webserver von ASP.NET. (cross platform)
+- Owin
+    - Pipeliner im normalen ASP.net.
+    - 
+- katana
+
 ### ToDo: ###
 
 - Unbedingt auf 1.0.1 updaten. Security Patch.
 - mstest anschauen. Ganz neu. Was ist dann der Alte?
+- Was ist ein NuGet Server
 
 ### ToRead: ###
 
@@ -187,3 +202,8 @@
 
     private string name;
     public string Name => this.name.ToUpper();
+
+    var nameLength = name?.Length ?? 0;
+
+- C# Analyses and Refectore .... Extenseion in Visual Studio zuhause installieren.
+

@@ -27,7 +27,12 @@
     "Security",
     "mstest",
     "cspro",
-    "MSDN"
+    "MSDN",
+    "Kestre",
+    "ASP",
+    "Library",
+    "Kestrel",
+    "platform"
   ],
   "mistakeTypeToStatus": {
     "Passive voice": "Hint",
