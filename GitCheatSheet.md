@@ -13,3 +13,8 @@ Fügt Dateien dem Repository hinzu.
 
     git commit -m "Comment"
 
+Check die Daten ein.
+
+    git config color.ui true
+
+Farbige Konsolenausgabe.
