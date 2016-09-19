@@ -182,11 +182,65 @@
     - 
 - katana
 
+
+### Docker ###
+
+    docker run -it --rm ubuntu
+
+> Startet einen Docker Ubuntu Container.
+
+
+    cmd> docker run -it --rm -v C:\temp\..\..\hello-aspnet-core:/app -p  5000:5000 microsoft/dotnet
+
+    bash> dotnet restore
+
+    bash> dotnet build
+
+    bash> dotnet run
+
+> Startet einen Docker Container mit dem Microsoft .net Core
+> Framework unter Linux als eigenen Server.
+
+**Dockker Tools für Visual Studio angucken.** 
+
+- dockerfile anlegen
+
+
+    FROM microsoft/dotnet
+
+    COPY *.* /src/
+
+    WORKDIR /src
+    RUN dotnet restore
+    RUN dotnet build
+
+    CMD ["dotnet", "run"]
+
+- Build ausführen
+
+    docker build -t NameVerzeichnis? .
+
+    docker images
+
+> Zegt alle erzeugten Images.
+
+    docker run -d -p 5000:50000 imageName
+
+    docker push
+
+> Läd den Docker Container auf DockerHub hoch.
+
+
+###  ###
+
+
+
 ### ToDo: ###
 
 - Unbedingt auf 1.0.1 updaten. Security Patch.
 - mstest anschauen. Ganz neu. Was ist dann der Alte?
 - Was ist ein NuGet Server
+- Docker Tools für Visual Studio angucken.
 
 ### ToRead: ###
 
