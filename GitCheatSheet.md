@@ -18,3 +18,8 @@ Check die Daten ein.
     git config color.ui true
 
 Farbige Konsolenausgabe.
+
+    git clone Verzeichnis
+
+Holt sich ein Repository vom Server und legt eine lokale
+Arbeitskopie an.

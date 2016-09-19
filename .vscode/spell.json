@@ -32,7 +32,17 @@
     "ASP",
     "Library",
     "Kestrel",
-    "platform"
+    "platform",
+    "DockerHub",
+    "Logging",
+    "ApplicationInsights",
+    "Clouddienst",
+    "Telemetry",
+    "commandline",
+    "args",
+    "xml",
+    "json",
+    "ini"
   ],
   "mistakeTypeToStatus": {
     "Passive voice": "Hint",

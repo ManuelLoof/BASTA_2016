@@ -9,6 +9,7 @@
 ### Slides und Code Beispiel: ###
 
 - [https://github.com/rstropek/samples](https://github.com/rstropek/samples)
+- `git clone https://github.com/rstropek/Samples.git` 
 
 - Verzeichnis:
 
@@ -231,7 +232,36 @@
 > Läd den Docker Container auf DockerHub hoch.
 
 
-###  ###
+### Letzter Punkt am Nachmittag (55_Conviguration)  ###
+
+- `ConfigurationBuilder()`
+
+
+    var builder = new ConfigurationBuilder();
+    builder.AddInMemoryCollection(new Dictionary<string, string>)
+    {
+        {"color", "Red"}
+    });
+
+    var config = builder.Build();
+    Console.WriteLine($"Color is {config["color"]} ");
+
+
+> Liest und schreibt in die Config.
+
+- Ich kann auch .json, .xml oder .ini Files einlesen.
+- Auch per commandline args.
+
+
+**Für weitere Informationen die Beispiel-App angucken.**
+
+### Logging ###
+
+- 58-Logging Beispiel 
+- ApplicationInsights
+    - Logging Clouddienst von Microsoft.
+    - Aber auch Telemetry und Performance.
+- Dependencie Injection System in Dot Net noch einmal ansehen angucken.
 
 
 
@@ -260,4 +290,8 @@
     var nameLength = name?.Length ?? 0;
 
 - C# Analyses and Refectore .... Extenseion in Visual Studio zuhause installieren.
-
+- `nameof()` Operator verwenden.
+- `catch (Exxeption ex) when (ex.InnerException == null)`
+- `using static System.Console` dadruch muss ich die Klassen
+    nicht mehr davor schreiben.
+- **Auf NuGet Überschreibungen achten!**
