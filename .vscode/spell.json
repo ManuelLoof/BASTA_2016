@@ -57,7 +57,10 @@
     "using",
     "static",
     "intWert",
-    "Rosly"
+    "Rosly",
+    "MAXIMAGO",
+    "Flexbox",
+    "CSS"
   ],
   "mistakeTypeToStatus": {
     "Passive voice": "Hint",

@@ -25,13 +25,33 @@ github Softaware
 - früher Developer Editio 3000 $, Lieferung aus USA oder Kanada
 -
 ### Demo ###
+ 
+![alt text][hololense1]
+[hololense1]: images/IMG_4754.JPG "Speaker with hololense." 
 
-- **ToDO: Bilder einfügen**
+![alt text][hololense2]
+[hololense2]: images/IMG_4756.JPG "Speaker with hololense." 
 
-Reference-style: 
-![alt text][logo]
+![alt text][hololense3]
+[hololense3]: images/IMG_4757.JPG "Speaker with hololense." 
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2" 
+![alt text][hololense4]
+[hololense4]: images/IMG_4758.JPG "Speaker with hololense." 
+
+![alt text][hololense5]
+[hololense5]: images/IMG_4758.JPG "Speaker with hololense." 
+
+![alt text][hololense6]
+[hololense6]: images/IMG_4759.JPG "Speaker with hololense." 
+
+![alt text][hololense7]
+[hololense7]: images/IMG_4760.JPG "Speaker with hololense." 
+
+![alt text][hololense8]
+[hololense8]: images/IMG_4763.JPG "Speaker with hololense." 
+
+![alt text][hololense9]
+[hololense9]: images/IMG_4764.JPG "Speaker with hololense." 
 
 
 ### Entwicklung 2D ###
