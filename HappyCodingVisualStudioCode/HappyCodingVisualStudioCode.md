@@ -2,6 +2,10 @@
 
 ## Keynote: Happy Coding mit Visual Studio Code ##
 
+> Speaker: Dirk Bäumer (Microsoft)
+> Date: 20.09.2016
+
+
 ### Urls ###
 
 - Hacker News ([https://news.ycombinator.com/](https://news.ycombinator.com/))
