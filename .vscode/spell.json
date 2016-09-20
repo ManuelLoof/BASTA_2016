@@ -42,7 +42,10 @@
     "args",
     "xml",
     "json",
-    "ini"
+    "ini",
+    "Keynote",
+    "Coding",
+    "Urls"
   ],
   "mistakeTypeToStatus": {
     "Passive voice": "Hint",
