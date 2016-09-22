@@ -5,15 +5,6 @@
 > Speaker: Dino Esposito  (JetBrains)
 > Date: 21.09.2016
 
-###  ###
 
 - Alpha status
 - `install-packe bootstrap -pre`
--
-
-
-### Urls ###
-
-
-
-### Tipps und Tricks ###
