@@ -5,6 +5,9 @@
 > Speaker: Timo Korinth  (MAXIMAGO)
 > Date: 29.09.2016
 
+[Slide PDF](20160920-001-Flexbox.pdf)
+git clone https://github.com/TimoKorinth/flexbox-basta-demo.git
+
 ### CSS ###
 
 - `display: flex;`
@@ -52,7 +55,7 @@ Container
 
     CONTENT
 
-    flex: 1 1 100;
+    flex: 1 1 100%;
 
 }
 
