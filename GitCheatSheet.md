@@ -1,3 +1,5 @@
+
+
 # Git Cheat Sheet #
 
 ## Basics ##
@@ -28,3 +30,7 @@ Arbeitskopie an.
     git push -u origin master
 
 Logt sich auf GitHub ein und überträgt die Daten aus der Arbeitskopie auf den Server.
+
+    git log --pretty=format:"%h - %an, %ar : %s"
+    
+Gibt die alle commit messages für das Projekt aus.
